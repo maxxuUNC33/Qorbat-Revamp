@@ -34,7 +34,7 @@ function ImmigrantDisplay() {
 
     return (
         <div>
-            <h2>View Immigrants by Country</h2>
+            <h2>View Immigrants by Country - Table</h2>
             <select value={country} onChange={e => setCountry(e.target.value)}>
                 <option value="">Select a country...</option>
                 <option value="India">India</option>
@@ -56,7 +56,7 @@ function ImmigrantDisplay() {
                 </div>
             ))}
 
-            <h2>Search by Name</h2>
+            <h2>Find ____ in Country Table</h2>
             <input value={searchName} onChange={e => setSearchName(e.target.value)} placeholder="Enter name" />
             <button onClick={handleSearch}>Search</button>
 
