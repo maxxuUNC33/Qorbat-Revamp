@@ -1,0 +1,47 @@
+/* CountryList.css */
+
+.country-list-container {
+    border: 2px solid #ddd; /* Add border around the entire component */
+    border-radius: 8px; /* Optional: rounded corners */
+    padding: 20px;
+    margin: auto; /* Center the component */
+    max-width: 1024px; /* Maximum width of the container */
+}
+
+.country-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Responsive grid columns */
+    grid-template-rows: auto auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.country-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px; /* Fixed width */
+    height: 40px; /* Fixed height */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #aaa;
+    border-radius: 1px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    overflow: hidden; /* Prevent content overflow */
+    white-space: nowrap; /* Prevent text wrapping */
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+    transition: background-color 0.3s, border-color 0.3s;
+    margin:auto;
+ 
+    min-width: 5;
+}
+
+.country-item:hover {
+    background-color: #e0e0e0;
+    border-color: #888;
+}

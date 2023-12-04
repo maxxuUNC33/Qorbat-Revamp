@@ -1,0 +1,77 @@
+/* ImmigrantForm.css */
+
+
+.ImmigrantForm {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top:20px;
+}
+
+.ImmigrantForm h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.ImmigrantForm form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.ImmigrantForm form label,
+.ImmigrantForm form input,
+.ImmigrantForm form select {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.ImmigrantForm form input[type="text"],
+.ImmigrantForm form select {
+    border: 1px solid #ccc;
+}
+
+.ImmigrantForm form button {
+    grid-column: span 2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.ImmigrantForm form button:hover {
+    background-color: #45a049;
+}
+
+.ImmigrantForm .success-message,
+.ImmigrantForm .error-message {
+    grid-column: span 2;
+    margin: 10px 0;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.ImmigrantForm .success-message {
+    background-color: #4CAF50;
+}
+
+.ImmigrantForm .error-message {
+    background-color: #f44336;
+}
+
+@media screen and (max-width: 600px) {
+    .ImmigrantForm form {
+        grid-template-columns: 1fr;
+    }
+}

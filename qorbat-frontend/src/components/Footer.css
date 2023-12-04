@@ -1,0 +1,37 @@
+/* footer.css */
+footer {
+    background-color: lightgreen; /* Light green background */
+    color: white;                /* White text */
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;                 /* Full width */
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-content h2 {
+    margin: 0 0 10px;
+}
+
+.footer-content p {
+    line-height: 1.6;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.socials li a {
+    color: white;
+    text-decoration: none;
+}
