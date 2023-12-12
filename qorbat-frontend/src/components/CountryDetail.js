@@ -43,7 +43,7 @@ function CountryDetail() {
                         <th>Significance</th>
                         <th>Industry</th>
                         <th>Education Level</th>
-                        <th>Status</th>
+                   
                     </tr>
                 </thead>
                 <tbody>
@@ -57,7 +57,7 @@ function CountryDetail() {
                             <td>{immigrant.Significance}</td>
                             <td>{immigrant.Industry}</td>
                             <td>{immigrant.educationLevel}</td>
-                            <td>{immigrant.Status ? 'Active' : 'Inactive'}</td>
+                  
                         </tr>
                     ))}
                 </tbody>
