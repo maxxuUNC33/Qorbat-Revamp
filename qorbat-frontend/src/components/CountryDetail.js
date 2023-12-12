@@ -43,7 +43,6 @@ function CountryDetail() {
                         <th>Significance</th>
                         <th>Industry</th>
                         <th>Education Level</th>
-                        
                     </tr>
                 </thead>
                 <tbody>
